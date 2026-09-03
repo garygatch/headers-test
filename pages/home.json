@@ -197,8 +197,8 @@
                 {
                   "name": "text",
                   "nodeName": "text",
-                  "textContent": "h1",
-                  "evaluate": false
+                  "textContent": "$ctrl.val.a",
+                  "evaluate": true
                 }
               ],
               "comments": ""
