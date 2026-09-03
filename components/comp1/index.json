@@ -1,0 +1,166 @@
+{
+  "type": "custom-component",
+  "name": "comp1",
+  "children": [
+    {
+      "name": "h1",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.a",
+          "evaluate": true
+        }
+      ]
+    },
+    {
+      "name": "h2",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.b",
+          "evaluate": true
+        }
+      ]
+    },
+    {
+      "name": "h3",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.c",
+          "evaluate": true
+        }
+      ]
+    },
+    {
+      "name": "h4",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.d",
+          "evaluate": true
+        }
+      ]
+    },
+    {
+      "name": "h5",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.e",
+          "evaluate": true
+        }
+      ]
+    },
+    {
+      "name": "h6",
+      "classList": [],
+      "styles": [
+        {
+          "property": "text-align",
+          "value": "center",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.val.f",
+          "evaluate": true
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "val",
+      "description": "",
+      "type": "object",
+      "properties": [
+        {
+          "name": "a",
+          "description": "",
+          "type": "property",
+          "value": "'h1 test'"
+        },
+        {
+          "name": "b",
+          "description": "",
+          "type": "property",
+          "value": "'h2 test'"
+        },
+        {
+          "name": "c",
+          "description": "",
+          "type": "property",
+          "value": "'h3 test'"
+        },
+        {
+          "name": "d",
+          "description": "",
+          "type": "property",
+          "value": "'h4 test'"
+        },
+        {
+          "name": "e",
+          "description": "",
+          "type": "property",
+          "value": "'h5 test'"
+        },
+        {
+          "name": "f",
+          "description": "",
+          "type": "property",
+          "value": "'h6 test'"
+        }
+      ]
+    }
+  ],
+  "bindings": [],
+  "modules": [],
+  "styles": [],
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [],
+  "localStylesheets": []
+}
