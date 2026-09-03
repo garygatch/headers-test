@@ -1,5 +1,5 @@
 {
-  "name": "headers-test-bb",
+  "name": "headers-test-bb-renamed",
   "type": "app",
   "defaultPage": "home",
   "config": {
@@ -7,7 +7,6 @@
       "parameters": [],
       "script": ""
     },
-    "modules": [],
     "properties": {
       "version": "1.0.0-SNAPSHOT"
     },
